@@ -26,7 +26,7 @@ nav{
 	cursor: pointer;
 }
 span{
-	color: #9932CC;
+	color: #FF69B4;
 }
 nav ul li{
 	list-style-type: none;
@@ -40,11 +40,11 @@ nav ul li a{
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: #9932CC;
+	color: #FF69B4;
 	transition: .4s;
 }
 .btn{
-	background-color:#9932CC;
+	background-color:#FF69B4;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -86,7 +86,7 @@ h4{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-	border: 2px solid #9932CC;
+	border: 2px solid #FF69B4;
 	outline: none;
 	border-radius: 30px;
 }
@@ -97,7 +97,7 @@ h4{
 	border: none;
 	padding: 10px 30px;
 	border-radius: 30px;
-	background-color:#9932CC;
+	background-color:#FF69B4;
 	color: white;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
@@ -144,7 +144,7 @@ h4{
 	margin-bottom: 45px;
 }
 button{
-	background-color:#9932CC;
+	background-color:#FF69B4;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -155,7 +155,7 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid #9932CC;
+	border: 2px solid #FF69B4;
 	cursor: pointer;
 }
 .service{
@@ -177,8 +177,8 @@ button:hover{
 	min-height: 500px;
 }
 .card{
-	height: 365px;
-	width: 335px;
+	height: 400px;
+	width: 400px;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
@@ -192,7 +192,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #9932CC;
+	color: #FF69B4;
 
 }
 h5{
@@ -207,7 +207,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#9932CC;
+	background-color:#FF69B4;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -218,7 +218,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid #9932CC;
+	border: 2px solid #FF69B4;
 	cursor: pointer;
 }
 .contact-me{
@@ -237,7 +237,7 @@ h5{
 	margin-bottom: 25px;
 }
 .contact-me .button-two{
-	background-color:#9932CC;
+	background-color:#FF69B4;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -248,7 +248,7 @@ h5{
 }
 .contact-me .button-two:hover{
 	background-color: transparent;
-	border: 2px solid #9932CC;
+	border: 2px solid #FF69B4;
 	cursor: pointer;
 }
 footer{
@@ -283,7 +283,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #9932CC;
+	background:  #FF69B4;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -296,7 +296,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#9932CC;
+	color:#FF69B4;
 	bottom: 35px;
 	font-size: 14px; 
 }
@@ -305,4 +305,30 @@ footer p:nth-child(2){
 }
 .dreamy{
 	margin-top: 25px;
+}
+.demo-typewriter span {
+  color: #FF69B4;
+  overflow: hidden;   
+  border-right: .10em solid #FF8D8D;
+  white-space: nowrap;   
+  margin: 0 auto;   
+  letter-spacing: .4rem;   
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+}
+@keyframes demo-typewriter {
+  from { 
+    width: 0;
+  }
+  to { 
+    width: 100%;
+  }
+}
+
+@keyframes demo-cursor {
+  from, to { 
+    border-color: transparent; 
+}
+  50% { 
+border-color: #FF8D8D; 
+  }
 }
